@@ -1,27 +1,84 @@
 body {
     margin: 0;
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
 }
 
 .container {
-    background-color: gray;
+    background-color:#BCDDEF;
     margin: 0 auto;
     width: 100%;
-    overflow: hidden;
 }
 
 .header {
-    background-color: green;
+    background-color: #232323;
     overflow: hidden;
     padding: 10px;
+}
+
+.bio {
+    width: 30%;
+    color: #e8e8e8;
+    flex-basis: 80%;
+}
+
+.bio p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-weight: 200;
 }
 
 .header h1 {
     text-transform: uppercase;
     font-weight: 700;
+    margin: 5px 0 50px 0;
+    font-size: 60px;
+    color: #e8e8e8;
+    float: left;
 }
 
 .header h3 {
     font-weight: 700;
+    margin: 0;
+    color: #e8e8e8;
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    float: left;
+}
+
+.portrait img {
+    width: 20%;
+    border-radius: 50%;
+    float: right;
+    transform: rotateY(180deg);
+}
+
+.invert{
+    -webkit-filter: invert(100%);
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    
+}
+
+.links img {
+    width: 30px;
+    margin: 25px 30px 25px auto;
+}
+
+.projects {
+    padding: 10px;
+}
+
+.projects h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #232323;
+}
+
