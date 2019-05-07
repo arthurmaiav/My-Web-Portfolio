@@ -22,11 +22,13 @@ body {
     flex-basis: 80%;
     float: left;
     margin-left: 5%;
+    margin-bottom: 5%;
 }
 
 .bio p {
     margin-top: 2px;
     margin-bottom: 2px;
+    font-size: 1.1rem;
     font-weight: 200;
 }
 
@@ -50,12 +52,12 @@ body {
 .grid {
     display: flex;
     flex-wrap: wrap;
-    width: 70%;
+    width: 60%;
     float: left;
 }
 
 .portrait img {
-    width: 20%;
+    width: 19rem;
     border-radius: 50%;
     float: right;
     transform: rotateY(180deg);
@@ -69,11 +71,10 @@ body {
     display: flex;
     flex-direction: column;
     float: right;
-    
 }
 
 .links img {
-    width: 30px;
+    width: 3rem;
     margin: 25px 30px 25px auto;
 }
 
@@ -175,7 +176,7 @@ body {
 
   .description p {
       text-align: left;
-      font-size: 20px;
+      font-size: 1.2rem;
       margin-top: 0px;
   }
 
